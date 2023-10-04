@@ -9,9 +9,9 @@
 main .light-box {
   margin: 2rem 0;
   padding: 1rem;
-  /* 1. Add a background colour of #f5f5f5 */
-  /* 2. Add a border radius of 0.5rem */
-  /* 3. Add a text color of #1d3557ff */
+  background-color: #f5f5f5;
+  border-radius: 0.5rem /* 2. Add a border radius of 0.5rem */
+  text-color: #1d3557ff; /* 3. Add a text color of #1d3557ff */
 }
 
 /* Styles for the dark box */
