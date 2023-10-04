@@ -19,6 +19,7 @@ main .light-box {
 
 
 /* Create a class called dark-box and add the following styles to it */
+
 main .dark-box {
   padding: 1rem;
   margin: 2rem 0;
@@ -64,18 +65,17 @@ Create a selector that targets the link in the dark box and add the following st
 
 /* Styles for the blux box */
 
-/*
 
-Create a class called blue-box and add the following styles to it
 
+/* Create a class called blue-box and add the following styles to it */
+main .blue-box {
   padding: 1rem;
   margin: 2rem 0;
+  background-color: #457b9dff;
+  border-radius: 0.5rem;
+  text-color: #f5f5f5;
+}
 
-  12. Add a background colour of #457b9dff
-  13. Add a border radius of 0.5rem
-  14. Add a text color of #f5f5f5
-
-*/
 
 /* Use psuedo classes nth-child(even) to give ever second list item in main a different background colour and text color
 hint: li:nth-child(odd)
