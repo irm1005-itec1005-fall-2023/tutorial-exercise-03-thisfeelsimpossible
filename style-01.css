@@ -47,9 +47,9 @@ Create a selector that targets the link in the dark box and add the following st
 main .red-box {
   padding: 1rem;
   margin: 2rem 0;
-  background-color: 8. Add a background colour of #e63946ff
-  9. Add a border radius of 0.5rem
-  10. Add a text color of #f5f5f5
+  background-color: #e63946ff;
+  border-radius: 0.5rem;
+  text-color: #f5f5f5; 
 }
 
 
@@ -80,6 +80,9 @@ main .blue-box {
 /* Use psuedo classes nth-child(even) to give ever second list item in main a different background colour and text color
 hint: li:nth-child(odd)
 */
+
+li:nth-child(1)
+
 
 /* 15. enter your code here */
 
