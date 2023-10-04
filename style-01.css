@@ -15,9 +15,6 @@ main .light-box {
 }
 
 
-
-
-
 /* Create a class called dark-box and add the following styles to it */
 
 main .dark-box {
@@ -29,14 +26,9 @@ main .dark-box {
 }
 
 
-/* Styles for the link in the dark box */
-
 main .dark-box a {
   color: #e63946ff;
 }
-
-
-/* Styles for the red box */
 
 
 
@@ -75,14 +67,11 @@ main .blue-box {
 hint: li:nth-child(odd)
 */
 
+
 main .blue-box ul li:nth-child(odd) {
   color: #1d3557ff;
   background-color: #f1faeeff;
 }
-
-
-
-/* 15. enter your code here */
 
 /* Use psuedo classes to give the last list item (last child) within a list in main a completely different background colour
 */
