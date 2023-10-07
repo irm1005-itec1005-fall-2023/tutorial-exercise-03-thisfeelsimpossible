@@ -9,84 +9,77 @@
 main .light-box {
   margin: 2rem 0;
   padding: 1rem;
-  /* 1. Add a background colour of #f5f5f5 */
-  /* 2. Add a border radius of 0.5rem */
-  /* 3. Add a text color of #1d3557ff */
+  background-color: #f5f5f5;
+  border-radius: 0.5rem;
+  color: #1d3557ff;
 }
 
-/* Styles for the dark box */
 
-/*
+/* Create a class called dark-box and add the following styles to it */
 
-Create a class called dark-box and add the following styles to it
-
+main .dark-box {
   padding: 1rem;
   margin: 2rem 0;
-  4. Add a background colour of #242121
-  5. Add a border radius of 0.5rem
-  6. Add a text color of #f5f5f5
+  background-color: #242121; 
+  border-radius: 0.5rem;
+  color: #f5f5f5;
+}
 
-*/
+
+main .dark-box a {
+  color: #e63946ff;
+}
+
+
+
+/* Create a class called red-box and add the following styles to it */
+main .red-box {
+  padding: 1rem;
+  margin: 2rem 0;
+  background-color: #e63946ff;
+  border-radius: 0.5rem;
+  color: #f5f5f5; 
+}
+
 
 /* Styles for the link in the dark box */
 
-/*
+main .red-box a {
+  color: #090909;
+}
 
-Create a selector that targets the link in the dark box and add the following styles to it
-
-  7. Add a text color of #e63946ff
-
-*/
-
-/* Styles for the red box */
-
-/*
-
-Create a class called red-box and add the following styles to it
-
-  padding: 1rem;
-  margin: 2rem 0;
-  8. Add a background colour of #e63946ff
-  9. Add a border radius of 0.5rem
-  10. Add a text color of #f5f5f5
-
-*/
-
-/* Styles for the link in the dark box */
-
-/*
-
-Create a selector that targets the link in the dark box and add the following styles to it
-
-  11. Add a text color of #090909
-
-*/
 
 /* Styles for the blux box */
 
-/*
 
-Create a class called blue-box and add the following styles to it
 
+/* Create a class called blue-box and add the following styles to it */
+main .blue-box {
   padding: 1rem;
   margin: 2rem 0;
+  background-color: #457b9dff;
+  border-radius: 0.5rem;
+  color: #f5f5f5;
+}
 
-  12. Add a background colour of #457b9dff
-  13. Add a border radius of 0.5rem
-  14. Add a text color of #f5f5f5
-
-*/
 
 /* Use psuedo classes nth-child(even) to give ever second list item in main a different background colour and text color
 hint: li:nth-child(odd)
 */
 
-/* 15. enter your code here */
+
+main .blue-box ul li:nth-child(odd) {
+  color: #1d3557ff;
+  background-color: #f1faeeff;
+}
 
 /* Use psuedo classes to give the last list item (last child) within a list in main a completely different background colour
 */
 
-/* 16. enter your code here */
+main .blue-box ul li:last-child {
+  color: #f5f5f5;
+  background-color: #1d3557ff;
+}
 
 /*
  * DONT MODIFY THE CODE
